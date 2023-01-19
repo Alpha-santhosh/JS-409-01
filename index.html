@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance-JS-409-01</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <br>
+    <h1>Validating Web Forms</h1><br>
+    <form action="">
+
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" onkeyup="Checkfname()">
+            <p id="fnamep"></p>
+        </div>
+        <div>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" onkeyup="Checklname()">
+            <p id="lnamep"></p>
+        </div>
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" onkeyup="Checkmail()">
+            <p id="mailp"></p>
+        </div>
+        <div>
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" onkeyup="Checkpwd()">
+            <p id="pwdp"></p>
+        </div>
+        <div>
+            <label for="phone">Telephone</label>
+            <input type="text" id="phone" onkeyup="Checkphone()">
+            <p id="phonep"></p>
+        </div>
+        <div>
+            <label for="bio">Your bio</label>
+            <input type="text" id="bio" onkeyup="Checkbio()">
+            <p id="biop"></p>
+        </div>
+        
+        <button  type="button" id="btn" onclick="check()">Submit</button>
+    </form>
+</body>
+</html>
